@@ -87,3 +87,29 @@ body{
         color: #F7EC3F;
     }
 }
+
+@media (max-width: 992px) {
+    .input-wrapper {
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px) {
+    .action-wrapper{
+        flex-wrap: wrap;
+    }
+    .input-wrapper {
+        & input {
+            padding: 15px;
+            width: 200px;
+        }
+    }
+    .result-button{
+        & button{
+            font-size: 30px;
+
+        }
+    }
+    body{
+        padding: 10px;
+    }
+}
