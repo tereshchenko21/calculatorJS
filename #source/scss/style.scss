@@ -1,0 +1,89 @@
+@import 'nullstyle.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background: #1D2C3B;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin: 80px 0 40px 0;
+    & span{
+        color: #F7EC3F;
+    }
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    & input{
+        background-color: #2a3d50;
+        padding: 20px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+.action-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    & button{
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        background-color: #2a3d50;
+        color: #fff;
+        border-start-start-radius: 10px;
+    }
+    & button:hover{
+        background-color: #385574;
+    }
+    & button:active{
+        transform: translateY(3px);
+        transition: 0.1s;
+    }
+    & button:focus{
+        background-color: rgb(46, 53, 87);
+        color: #F7EC3F;
+    }
+}
+.result-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    & button{
+        font-size: 50px;
+        color: #F7EC3F;
+        background-color: #2a3d50;;
+        padding: 7px;
+        border-radius: 10px;
+    }
+    & button:hover{
+        background-color: #385574;
+    }
+    & button:active{
+        transform: translateY(3px);
+        transition: 0.1s;
+    }
+}
+.result-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;
+    color: #fff;
+    & span{
+        color: #F7EC3F;
+    }
+}

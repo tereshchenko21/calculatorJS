@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calc</title>
+</head>
+<body>
+    <div class="title">
+        <h1>ca<span>l</span>c</h1>
+    </div>
+    <div class="input-wrapper">
+        <input type="number"
+        id="firstNumber"
+        value=""
+        placeholder="0"
+        autocomplete="off"
+        >
+        <input type="number"
+        id="secondNumber"
+        value=""
+        placeholder="0"
+        autocomplete="off"
+        >
+    </div>
+    <div class="action-wrapper">
+        <button id="plus" class="plus-button">
+            +
+        </button>
+        <button id="minus" class="minus-button">
+            -
+        </button>
+        <button id="multiply" class="multiply-button">
+            *
+        </button>
+        <button id="divide" class="divide-button">
+            /
+        </button>
+    </div>
+    <div class="result-button">
+        <button id="result">
+            calculate
+        </button>
+    </div>
+    <div class="result-wrapper">
+        <div class="result__title">
+            resu<span>l</span>t: 
+        </div>
+        <div id="output" class="result__output-field">0</div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

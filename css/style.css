@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  background: #1D2C3B;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  margin: 80px 0 40px 0;
+}
+.title span {
+  color: #F7EC3F;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.input-wrapper input {
+  background-color: #2a3d50;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.action-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.action-wrapper button {
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  background-color: #2a3d50;
+  color: #fff;
+  border-start-start-radius: 10px;
+}
+.action-wrapper button:hover {
+  background-color: #385574;
+}
+.action-wrapper button:active {
+  transform: translateY(3px);
+  transition: 0.1s;
+}
+.action-wrapper button:focus {
+  background-color: rgb(46, 53, 87);
+  color: #F7EC3F;
+}
+
+.result-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.result-button button {
+  font-size: 50px;
+  color: #F7EC3F;
+  background-color: #2a3d50;
+  padding: 7px;
+  border-radius: 10px;
+}
+.result-button button:hover {
+  background-color: #385574;
+}
+.result-button button:active {
+  transform: translateY(3px);
+  transition: 0.1s;
+}
+
+.result-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 30px;
+  color: #fff;
+}
+.result-wrapper span {
+  color: #F7EC3F;
+}
